@@ -1,0 +1,21 @@
+May 22, 2020 10:09:53 PM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: test
+May 22, 2020 10:09:53 PM hudson.remoting.jnlp.Main$CuiListener <init>
+INFO: Jenkins agent is running in headless mode.
+May 22, 2020 10:09:53 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 4.2
+May 22, 2020 10:09:53 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/ubuntu/devops/remoting as a remoting work directory
+May 22, 2020 10:09:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://54.157.153.68:8080/]
+May 22, 2020 10:09:53 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+May 22, 2020 10:09:58 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver isPortVisible
+WARNING: connect timed out
+May 22, 2020 10:09:58 PM hudson.remoting.jnlp.Main$CuiListener error
+SEVERE: http://54.157.153.68:8080/ provided port:45797 is not reachable
+java.io.IOException: http://54.157.153.68:8080/ provided port:45797 is not reachable
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:314)
+	at hudson.remoting.Engine.innerRun(Engine.java:690)
+	at hudson.remoting.Engine.run(Engine.java:518)
+
